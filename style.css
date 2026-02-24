@@ -1,16 +1,13 @@
 body {
   background-image: url("Background.jpeg");
-  max-width: 100%;
-  padding-inline-start: 10%;
-  padding-top: 2%;
 }
 
 p {
   color:rgb(0, 54, 120);
   font-size: 24px;
-}
-p {
   font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
 }
 
 ul{
@@ -19,16 +16,16 @@ ul{
   list-style-type: square;
 }
 h1{
-  color:rgb(255, 30, 30)
+  color:rgb(255, 30, 30);
+  letter-spacing: 4px;
 }
 h2{
-  color:rgb(211, 57, 1)
+  color:rgb(211, 57, 1);
+  letter-spacing: 1.6px;
 }
-h3{
+h3, h4{
   color:rgb(104, 68, 26);
-}
-h4{
-  color:rgb(104, 68, 26);
+  letter-spacing: 1.6px;
 }
 
 img {
@@ -38,4 +35,26 @@ img {
 }
 img:hover {
   box-shadow: 0 0 1px 1px rgba(227, 207, 134, 0.5);
+}
+
+nav {
+  padding: 10px 5%;
+  background-color: rgba(240, 248, 255, 0.675);
+}
+nav a {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid rgb(150, 150, 150);
+}
+header {
+  padding: 20px 25%;
+  background-color: rgba(250, 235, 215, 0.675);
+}
+main {
+  padding: 30px 10%;
+  background-color: rgba(245, 245, 220, 0.675);
+}
+footer {
+  padding: 20px 10%;
+  background-color: rgba(222, 184, 135, 0.675);
 }
