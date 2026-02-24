@@ -15,10 +15,6 @@ ul{
   font-size: 22px;
   list-style-type: square;
 }
-h1{
-  color:rgb(255, 30, 30);
-  letter-spacing: 4px;
-}
 h2{
   color:rgb(211, 57, 1);
   letter-spacing: 1.6px;
@@ -36,7 +32,10 @@ img {
 img:hover {
   box-shadow: 0 0 1px 1px rgba(227, 207, 134, 0.5);
 }
-
+.round {
+  border-radius: 50px;
+  border: none;
+}
 nav {
   padding: 10px 5%;
   background-color: rgba(240, 248, 255, 0.675);
@@ -45,14 +44,31 @@ nav a {
   margin: 10px;
   padding: 10px 20px;
   border: 1px solid rgb(150, 150, 150);
+  border-radius: 999px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-header {
+#theHeader {
   padding: 20px 25%;
   background-color: rgba(250, 235, 215, 0.675);
+  color:rgb(255, 30, 30);
+  letter-spacing: 4px;
+  text-align: center;
 }
 main {
   padding: 30px 10%;
   background-color: rgba(245, 245, 220, 0.675);
+}
+.brownText{
+  color:brown;
+}
+.redText{
+  color: red;
+}
+.blueText{
+  color:lightseagreen;
+}
+.purpleText{
+  color:darkorchid;
 }
 footer {
   padding: 20px 10%;
